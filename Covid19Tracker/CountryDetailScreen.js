@@ -4,13 +4,13 @@ import CaseDeatil from './CaseDeatil';
 import CaseDetail from './CaseDeatil';
 
 export default function CountryDetailScreen({route, navigation}) {
-  const {country} = route.params;
+  const {countryItem} = route.params;
 
   React.useEffect(() => {
     navigation.setOptions({
-      title: country.Country,
+      title: countryItem.Country,
     });
   });
 
-  return <CaseDetail data={country} />;
+  return <CaseDetail data={countryItem} />;
 }

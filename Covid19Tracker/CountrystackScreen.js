@@ -2,9 +2,12 @@
 import * as React from 'react';
 import {View, Text} from 'react-native';
 import {createStackNavigator} from '@react-navigation/stack';
+
 import COLORS from './Colors';
 import CountryListingScreen from './CountryListingScreen';
 import CountryDetailScreen from './CountryDetailScreen';
+import CountryTabScreen from './CountryTabScreen';
+
 
 const Stack = createStackNavigator();
 
@@ -24,8 +27,8 @@ export default function CountrystackScreen() {
         }}
       />
       <Stack.Screen
-        name="CountryDetailScreen"
-        component={CountryDetailScreen}
+        name="CountryTabScreen"
+        component={CountryTabScreen}
         options={{
           title: 'Country Detail',
         }}

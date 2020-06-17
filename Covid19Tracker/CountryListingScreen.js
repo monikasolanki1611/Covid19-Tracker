@@ -4,6 +4,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {Card} from '@paraboly/react-native-card';
 import CountryDetailScreen from './CountryDetailScreen';
 import COLORS from './Colors';
+import CountryTabScreen from './CountryTabScreen';
 
 export default function CountryListingScreen({navigation}) {
   const [countries, setCountries] = React.useState([]);
@@ -33,12 +34,7 @@ export default function CountryListingScreen({navigation}) {
       ) : (
         <FlatList
           data={countries}
-          renderItem={({item}) => (
-            <Entry
-              item={item}
-              navigation={navigation}
-            />
-          )}
+          renderItem={({item}) => <Entry item={item} navigation={navigation} />}
           ItemSeparatorComponent={() => (
             <View
               style={{
@@ -66,7 +62,7 @@ function Entry({item, navigation}) {
         titleColor={COLORS.darkPrimaryColor}
         bottomRightColor={COLORS.darkPrimaryColor}
         bottomRightFontSize={13}
-        onPress={() => navigation.navigate('CountryDetailScreen', {country: item})}
+        onPress={() => navigation.navigate('CountryTabScreen', {country: item})}
       />
     </View>
   );

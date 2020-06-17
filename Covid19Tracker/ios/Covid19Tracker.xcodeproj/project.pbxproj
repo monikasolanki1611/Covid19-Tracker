@@ -17,6 +17,19 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* Covid19TrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Covid19TrackerTests.m */; };
 		39F07F4941AC388C61808CD1 /* libPods-Covid19Tracker-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E1FEC5943AB54662BF1329 /* libPods-Covid19Tracker-tvOS.a */; };
+		5381FAD42499D755007F1116 /* libRNSVG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5381FAD32499D755007F1116 /* libRNSVG.a */; };
+		5381FAE32499DA8A007F1116 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5381FAD62499DA7B007F1116 /* Roboto-Medium.ttf */; };
+		5381FAE42499DA8A007F1116 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5381FAD72499DA7B007F1116 /* Roboto-Light.ttf */; };
+		5381FAE52499DA8A007F1116 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5381FAD82499DA7B007F1116 /* Roboto-Regular.ttf */; };
+		5381FAE62499DA8A007F1116 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5381FAD92499DA7B007F1116 /* Roboto-MediumItalic.ttf */; };
+		5381FAE72499DA8A007F1116 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5381FADA2499DA7B007F1116 /* Roboto-ThinItalic.ttf */; };
+		5381FAE82499DA8A007F1116 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5381FADB2499DA7B007F1116 /* Roboto-BoldItalic.ttf */; };
+		5381FAE92499DA8A007F1116 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5381FADC2499DA7B007F1116 /* Roboto-LightItalic.ttf */; };
+		5381FAEA2499DA8A007F1116 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5381FADD2499DA7B007F1116 /* Roboto-Italic.ttf */; };
+		5381FAEB2499DA90007F1116 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5381FADF2499DA7B007F1116 /* Roboto-BlackItalic.ttf */; };
+		5381FAEC2499DA90007F1116 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5381FAE02499DA7B007F1116 /* Roboto-Bold.ttf */; };
+		5381FAED2499DA90007F1116 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5381FAE12499DA7B007F1116 /* Roboto-Thin.ttf */; };
+		5381FAEE2499DA90007F1116 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5381FAE22499DA7B007F1116 /* Roboto-Black.ttf */; };
 		7C033CF3BDCC454143075086 /* libPods-Covid19Tracker-Covid19TrackerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1AC9B5FEA1A272ACE1EA3AC /* libPods-Covid19Tracker-Covid19TrackerTests.a */; };
 		B4B27965B154E23533B7B9F4 /* libPods-Covid19Tracker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47D6FDF28E17050FDD5B96C7 /* libPods-Covid19Tracker.a */; };
 		FBEAC9EEA705079550742629 /* libPods-Covid19Tracker-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8514657FBD60CAF71F5BD69 /* libPods-Covid19Tracker-tvOSTests.a */; };
@@ -55,6 +68,20 @@
 		2D02E4901E0B4A5D006451C7 /* Covid19Tracker-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Covid19Tracker-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38EA65D4FB4C04FB44E0E706 /* Pods-Covid19Tracker-Covid19TrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid19Tracker-Covid19TrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-Covid19Tracker-Covid19TrackerTests/Pods-Covid19Tracker-Covid19TrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		47D6FDF28E17050FDD5B96C7 /* libPods-Covid19Tracker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Covid19Tracker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5381FAD32499D755007F1116 /* libRNSVG.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRNSVG.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/RNSVG-hemgllrmxixryucqqhqhyhdupmag/Build/Products/Debug-iphonesimulator/libRNSVG.a"; sourceTree = "<group>"; };
+		5381FAD62499DA7B007F1116 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		5381FAD72499DA7B007F1116 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		5381FAD82499DA7B007F1116 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		5381FAD92499DA7B007F1116 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		5381FADA2499DA7B007F1116 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		5381FADB2499DA7B007F1116 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		5381FADC2499DA7B007F1116 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		5381FADD2499DA7B007F1116 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		5381FADE2499DA7B007F1116 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		5381FADF2499DA7B007F1116 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		5381FAE02499DA7B007F1116 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		5381FAE12499DA7B007F1116 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		5381FAE22499DA7B007F1116 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
 		7DA81A43321F69853A59EE7D /* Pods-Covid19Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid19Tracker.release.xcconfig"; path = "Target Support Files/Pods-Covid19Tracker/Pods-Covid19Tracker.release.xcconfig"; sourceTree = "<group>"; };
 		8E0A4868F1292195D4E9807B /* Pods-Covid19Tracker-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid19Tracker-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Covid19Tracker-tvOSTests/Pods-Covid19Tracker-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		A8514657FBD60CAF71F5BD69 /* libPods-Covid19Tracker-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Covid19Tracker-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +110,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4B27965B154E23533B7B9F4 /* libPods-Covid19Tracker.a in Frameworks */,
+				5381FAD42499D755007F1116 /* libRNSVG.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +167,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5381FAD32499D755007F1116 /* libRNSVG.a */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				47D6FDF28E17050FDD5B96C7 /* libPods-Covid19Tracker.a */,
@@ -161,8 +190,27 @@
 				D1B3E82B0DFFBEBB9A75F097 /* Pods-Covid19Tracker-tvOSTests.debug.xcconfig */,
 				8E0A4868F1292195D4E9807B /* Pods-Covid19Tracker-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		5381FAD52499DA7B007F1116 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				5381FAD62499DA7B007F1116 /* Roboto-Medium.ttf */,
+				5381FAD72499DA7B007F1116 /* Roboto-Light.ttf */,
+				5381FAD82499DA7B007F1116 /* Roboto-Regular.ttf */,
+				5381FAD92499DA7B007F1116 /* Roboto-MediumItalic.ttf */,
+				5381FADA2499DA7B007F1116 /* Roboto-ThinItalic.ttf */,
+				5381FADB2499DA7B007F1116 /* Roboto-BoldItalic.ttf */,
+				5381FADC2499DA7B007F1116 /* Roboto-LightItalic.ttf */,
+				5381FADD2499DA7B007F1116 /* Roboto-Italic.ttf */,
+				5381FADE2499DA7B007F1116 /* LICENSE.txt */,
+				5381FADF2499DA7B007F1116 /* Roboto-BlackItalic.ttf */,
+				5381FAE02499DA7B007F1116 /* Roboto-Bold.ttf */,
+				5381FAE12499DA7B007F1116 /* Roboto-Thin.ttf */,
+				5381FAE22499DA7B007F1116 /* Roboto-Black.ttf */,
+			);
+			path = Roboto;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -175,6 +223,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				5381FAD52499DA7B007F1116 /* Roboto */,
 				13B07FAE1A68108700A75B9A /* Covid19Tracker */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* Covid19TrackerTests */,
@@ -340,6 +389,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5381FAEB2499DA90007F1116 /* Roboto-BlackItalic.ttf in Resources */,
+				5381FAEC2499DA90007F1116 /* Roboto-Bold.ttf in Resources */,
+				5381FAED2499DA90007F1116 /* Roboto-Thin.ttf in Resources */,
+				5381FAEE2499DA90007F1116 /* Roboto-Black.ttf in Resources */,
+				5381FAE32499DA8A007F1116 /* Roboto-Medium.ttf in Resources */,
+				5381FAE42499DA8A007F1116 /* Roboto-Light.ttf in Resources */,
+				5381FAE52499DA8A007F1116 /* Roboto-Regular.ttf in Resources */,
+				5381FAE62499DA8A007F1116 /* Roboto-MediumItalic.ttf in Resources */,
+				5381FAE72499DA8A007F1116 /* Roboto-ThinItalic.ttf in Resources */,
+				5381FAE82499DA8A007F1116 /* Roboto-BoldItalic.ttf in Resources */,
+				5381FAE92499DA8A007F1116 /* Roboto-LightItalic.ttf in Resources */,
+				5381FAEA2499DA8A007F1116 /* Roboto-Italic.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
