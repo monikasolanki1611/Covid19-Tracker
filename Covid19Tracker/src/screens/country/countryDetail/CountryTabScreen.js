@@ -14,6 +14,13 @@ const CountryTabScreen = ({route, navigation}) => {
         headerStyle: {backgroundColor: COLORS.medPrimaryColor},
         headerTintColor: COLORS.whiteTextColor,
         headerTitleStyle: {fontWeight: 'bold', fontSize: 25},
+      }}
+      tabBarOptions={{
+        activeBackgroundColor: COLORS.medPrimaryColor,
+        inactiveTintColor: COLORS.darkPrimaryColor,
+        backgroundColor: COLORS.commonThemeColor,
+        activeTintColor: COLORS.whiteTextColor,
+        labelStyle: {fontSize: 20, paddingBottom: 10},
       }}>
       <Tab.Screen
         name="CountryDetailScreen"
