@@ -1,7 +1,7 @@
 import React from 'react';
-import {View, Text, ActivityIndicator} from 'react-native';
+import {View} from 'react-native';
 import {Card} from '@paraboly/react-native-card';
-import COLORS from './Colors';
+import COLORS from '../const/Colors';
 
 const CaseDetail = ({data}) => (
   <View

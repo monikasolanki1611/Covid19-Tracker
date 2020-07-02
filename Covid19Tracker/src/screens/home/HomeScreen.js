@@ -1,9 +1,8 @@
 /* eslint-disable react-native/no-inline-styles */
 import React from 'react';
-import {View, Text, ActivityIndicator} from 'react-native';
-import {Card} from '@paraboly/react-native-card';
-import COLORS from './Colors';
-import CaseDetail from './CaseDeatil';
+import {View, ActivityIndicator} from 'react-native';
+import COLORS from '../../const/Colors';
+import CaseDetail from '../../components/CaseDeatil';
 
 export default function HomeScreen({navigation}) {
   const [globalData, setGlobalData] = React.useState([]);

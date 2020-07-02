@@ -1,10 +1,7 @@
 import React from 'react';
-import {View, Text, Button, ActivityIndicator, FlatList} from 'react-native';
-import {NavigationContainer} from '@react-navigation/native';
+import {View, ActivityIndicator, FlatList} from 'react-native';
 import {Card} from '@paraboly/react-native-card';
-import CountryDetailScreen from './CountryDetailScreen';
-import COLORS from './Colors';
-import CountryTabScreen from './CountryTabScreen';
+import COLORS from '../../../const/Colors';
 
 export default function CountryListingScreen({navigation}) {
   const [countries, setCountries] = React.useState([]);

@@ -29,6 +29,8 @@
     "react-native-screens": "^2.8.0",
     "react-native-svg": "^12.1.0",
     "react-native-vector-icons": "^6.6.0",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
     "victory": "^34.3.11",
     "victory-native": "^34.3.0"
   },
@@ -36,7 +38,7 @@
     "@babel/core": "^7.6.2",
     "@babel/runtime": "^7.6.2",
     "@react-native-community/eslint-config": "^0.0.5",
-    "babel-jest": "^24.9.0",
+    "babel-jest": "^24i.9.0",
     "eslint": "^6.5.1",
     "jest": "^24.9.0",
     "metro-react-native-babel-preset": "^0.58.0",

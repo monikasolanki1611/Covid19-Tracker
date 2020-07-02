@@ -1,12 +1,10 @@
 /* eslint-disable react-native/no-inline-styles */
 import * as React from 'react';
-import {View, Text} from 'react-native';
 import {createStackNavigator} from '@react-navigation/stack';
 
-import COLORS from './Colors';
-import CountryListingScreen from './CountryListingScreen';
-import CountryDetailScreen from './CountryDetailScreen';
-import CountryTabScreen from './CountryTabScreen';
+import COLORS from '../../const/Colors';
+import CountryListingScreen from './countryListing/CountryListingScreen';
+import CountryTabScreen from './countryDetail/CountryTabScreen';
 
 
 const Stack = createStackNavigator();

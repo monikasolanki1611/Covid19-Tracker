@@ -9,9 +9,9 @@
 import React from 'react';
 import {createDrawerNavigator} from '@react-navigation/drawer';
 import {NavigationContainer} from '@react-navigation/native';
-import HomestackScreen from './HomestackScreen';
-import CountrystackScreen from './CountrystackScreen';
-import COLORS from './Colors';
+import HomestackScreen from './src/screens/home/HomestackScreen';
+import CountrystackScreen from './src/screens/country/CountrystackScreen';
+import COLORS from './src/const/Colors';
 
 const Drawer = createDrawerNavigator();
 export default function App() {

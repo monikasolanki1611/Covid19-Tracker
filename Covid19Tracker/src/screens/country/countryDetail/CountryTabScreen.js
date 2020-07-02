@@ -1,7 +1,6 @@
 import * as React from 'react';
-import {View, Text} from 'react-native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import COLORS from './Colors';
+import COLORS from '../../../const/Colors';
 import CountryDetailScreen from './CountryDetailScreen';
 import CaseDetailChart from './CaseDetailChart';
 

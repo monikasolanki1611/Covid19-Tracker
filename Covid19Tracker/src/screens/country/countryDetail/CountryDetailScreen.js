@@ -1,7 +1,5 @@
 import React from 'react';
-import {View, Text} from 'react-native';
-import CaseDeatil from './CaseDeatil';
-import CaseDetail from './CaseDeatil';
+import CaseDetail from '../../../components/CaseDeatil';
 
 export default function CountryDetailScreen({route, navigation}) {
   const {countryItem} = route.params;
